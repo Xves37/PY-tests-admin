@@ -1,4 +1,5 @@
 from html_files import *
 from data import *
 
-search_create('Test', data_from_json('src/json/data_test.json'), 'src/search/test.html')
+# data_to_json(data_from_txt('src/txt/Fiz_test2.txt'), 'src/json/fiz_2.json')
+# search_create('Физика 2-ой этап', data_from_json('src/json/fiz_2.json'), 'src/search/fiz_2.html')

@@ -7,7 +7,7 @@ def data_from_txt(path):
     f.close()
 
     data = []
-    for i in range(0, 10, 4):
+    for i in range(0, len(lines), 4):
         data.append({
             'question': lines[i],
             'answer': [
